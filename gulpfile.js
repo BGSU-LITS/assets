@@ -4,6 +4,7 @@ var elixir = require('laravel-elixir');
 elixir(function(mix) {
     mix.styles('../bower/bootstrap/dist/css/bootstrap.css');
     mix.styles('../bower/bootstrap/dist/css/bootstrap-theme.css');
+    mix.styles('../bower/font-awesome/css/font-awesome.css');
     mix.styles('../bower/photoswipe/dist/photoswipe.css');
 
     mix.styles(
