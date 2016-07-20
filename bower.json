@@ -2,9 +2,11 @@
   "name": "assets",
   "dependencies": {
     "bootstrap": "~3.3.5",
-    "font-awesome": "~4.4.0",
+    "font-awesome": "~4.6.3",
     "photoswipe": "~4.1.0",
     "typogr.js": "~0.6.5",
-    "masonry": "~3.3.2"
+    "masonry": "~4.1.0",
+    "table.sort": "~4.0.1",
+    "jquery.floatThead": "^1.4.2"
   }
 }

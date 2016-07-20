@@ -14,10 +14,19 @@ elixir(function(mix) {
 
     mix.scripts('../bower/jquery/dist/jquery.js');
     mix.scripts('../bower/bootstrap/dist/js/bootstrap.js');
+    mix.scripts('../bower/jquery.floatThead/dist/jquery.floatThead.js');
     mix.scripts('../bower/masonry/dist/masonry.pkgd.js');
     mix.scripts('../bower/photoswipe/dist/photoswipe.js');
     mix.scripts('../bower/photoswipe/dist/photoswipe-ui-default.js');
     mix.scripts('../bower/typogr.js/typogr.js');
+
+    mix.scripts(
+        [
+            '../bower/table.sort/src/tablesort.js',
+            '../bower/table.sort/src/sorts/tablesort.number.js'
+        ],
+        'public/js/tablesort.js'
+    );
 
     mix.copy(
         'resources/assets/bower/bootstrap/fonts',
